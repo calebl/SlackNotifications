@@ -3,7 +3,6 @@ using System.Collections.Specialized;
 using System.Net;
 using System.Text;
 using Newtonsoft.Json;
-using SlackNotifications.Infrastructure;
 
 namespace SlackNotifications.Services.Slack
 {
@@ -12,9 +11,9 @@ namespace SlackNotifications.Services.Slack
         private readonly Uri _uri;
         private readonly Encoding _encoding = new UTF8Encoding();
     
-        public SlackClient(Config config)
+        public SlackClient()
         {
-            _uri = new Uri(config.Slack.Url);
+            _uri = new Uri(Environment.GetEnvironmentVariable("SLACK_URL"));
         }
 
         //Post a message using simple strings

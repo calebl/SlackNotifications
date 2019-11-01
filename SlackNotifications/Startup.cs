@@ -23,7 +23,8 @@ namespace SlackNotifications
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
+            
+            services.AddTransient<IDocsService, DocsService>();
             services.AddTransient<ISlackService, SlackService>();
             services.AddTransient<ISlackClient, SlackClient>();
 

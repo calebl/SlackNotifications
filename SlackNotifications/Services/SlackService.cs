@@ -1,5 +1,4 @@
 using System.Threading.Tasks;
-using SlackNotifications.Infrastructure;
 using SlackNotifications.Services.Slack;
 
 namespace SlackNotifications.Services
