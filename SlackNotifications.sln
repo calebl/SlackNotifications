@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackNotifications", "SlackNotifications\SlackNotifications.csproj", "{6F6CA701-9DCF-4C9D-A182-E67447E16EFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E9B7F941-4A95-4061-8DC7-02196B1D38E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{46621AB4-C278-497D-8AB8-20B793F19DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{AD93D168-A915-4F53-B47D-65C64746358C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6CA701-9DCF-4C9D-A182-E67447E16EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6CA701-9DCF-4C9D-A182-E67447E16EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6CA701-9DCF-4C9D-A182-E67447E16EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6CA701-9DCF-4C9D-A182-E67447E16EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46621AB4-C278-497D-8AB8-20B793F19DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46621AB4-C278-497D-8AB8-20B793F19DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46621AB4-C278-497D-8AB8-20B793F19DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46621AB4-C278-497D-8AB8-20B793F19DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD93D168-A915-4F53-B47D-65C64746358C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD93D168-A915-4F53-B47D-65C64746358C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD93D168-A915-4F53-B47D-65C64746358C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD93D168-A915-4F53-B47D-65C64746358C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46621AB4-C278-497D-8AB8-20B793F19DD7} = {E9B7F941-4A95-4061-8DC7-02196B1D38E5}
+		{AD93D168-A915-4F53-B47D-65C64746358C} = {E9B7F941-4A95-4061-8DC7-02196B1D38E5}
+	EndGlobalSection
+EndGlobal
